@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 #include <vector>
-using namespace std;
+using namespace std;aa
 #define SWAP(x,y,tmp)((tmp = x),( x=y ),(y= tmp))
 
 struct Circle {
