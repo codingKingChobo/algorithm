@@ -2,19 +2,19 @@
 #include <vector>
 using namespace std;
 const int MAX = 1000000 + 1;
-vector<long long> cnt(M, 0);
+
 long long pSum[MAX];
-int N, M;
 
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
+    int N, M;
 
     cin >> N >> M;
 
-
+    vector<long long> cnt(M);
     long long result = 0;
-
+    //cout << cnt[3];
     for (int i = 1; i <= N; i++)
     {
         int num;
